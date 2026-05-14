@@ -1,4 +1,13 @@
-header .notif {
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#wip-notif {
     background-color: red;
-    margin: none;
+}
+
+#wip-notif p {
+    color: white;
+    margin: 0;
 }
