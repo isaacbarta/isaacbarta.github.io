@@ -4,22 +4,36 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Isaac Barta | Game Designer & Developer</title>
+
   <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <header id="wip-notif">
     <p>Work in progress. Thanks for visiting!</p>
   </header>
 
-  <nav>
-    <a href="about.html">About</a>
-    <a href="#projects">Projects</a>
-    <a href="https://github.com/IsaacBarta">GitHub</a>
-    <a href="mailto:your.email@example.com">Contact</a>
-  </nav>
+<nav class="navbar">
+  <div class="nav-container">
+    
+    <a href="#" class="logo">Isaac Barta</a>
+
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+  </div>
+</nav>
 
   <section id="projects">
-    <h2>Featured Projects</h2>
+    <h1>Featured Projects</h1>
 
     <div class="project">
       <h3><a href="projects/combat-system.html">⚔️ Combat System Prototype (UE5)</a></h3>
@@ -29,11 +43,6 @@
     <div class="project">
       <h3><a href="projects/ui-framework.html">🧩 Modular UI Framework</a></h3>
       <p>MVVM-based Common UI system supporting dynamic menu injection and subsystem communication.</p>
-    </div>
-
-    <div class="project">
-      <h3><a href="projects/echoes-hollow-star.html">🌌 Echoes of the Hollow Star</a></h3>
-      <p>A multi-session D&D campaign with custom world design, factions, and progression systems.</p>
     </div>
   </section>
 
